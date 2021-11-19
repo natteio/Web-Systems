@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Registration Form
+        </title>        
+        <link rel="stylesheet" href="css/reg_style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="container">
+            <div class="title">Registration</div>
+            <form action="#" method="post">
+                <div class="user-details">
+                    <div class="inputbox">
+                        <span class="details">
+                            Given Name:
+                        </span>
+                        <input type="text" name="" placeholder="first name" required>
+                    </div><br><br>
+                    <div class="inputbox">
+                        <span class="details">
+                            Middle Name:
+                        </span>
+                        <input type="text" name="" placeholder="middle name" required>
+                    </div><br><br>
+                    <div class="inputbox">
+                        <span class="details">
+                            Sur Name:
+                        </span>
+                        <input type="text" name="" placeholder="sur name" required>
+                    </div>
+                    <div class="inputbox">
+                        <span class="details">
+                            Email Address:
+                        </span>
+                        <input type="text" name="" placeholder="example@email.com" required>
+                    </div>
+                    <div class="inputbox">
+                        <span class="details">
+                            Phone Number: 
+                        </span>
+                        <input type="text" pattern="[0-9]{4}-[0-9]{3}-[0-9]{4}" placeholder="09xx-xxx-xxxx">
+                    </div>
+                    <div class="inputbox">
+                        <span class="details">
+                            Telephone Number:
+                        </span>
+                        <input type="text" pattern="[0-9]{3}-[0-9]{4}" placeholder="221-xxxx">
+                    </div>
+                    <div class="birthdate_inputbox">
+                        <span class="details">
+                            Date of Birth:
+                        </span>
+                        <input type="date" name="" value="" required>
+                    </div>
+                    <div class="address">
+                        <span class="details">
+                            Home No./Street:
+                        </span>
+                        <input type="text" name="" placeholder="Home No./Street" required>
+                    </div>
+                    <div class="address">
+                        <span class="details">
+                            Barangay:
+                        </span>
+                        <input type="text" name="" placeholder="Barangay" required>
+                    </div>
+                    <div class="address">
+                        <span class="details">
+                            City/Municipality:
+                        </span>
+                        <input type="text" name="" placeholder="City/Municipality" required>
+                    </div>
+                    <div class="address">
+                        <span class="details">
+                            Province: 
+                        </span>
+                        <input type="text" name="" placeholder="Province" required>
+                    </div>
+                    <div class="gender-details">
+                        <span class="gender-title">
+                            Sex
+                        </span>
+                            <div class="category">
+                                <label for="dot-1">
+                                    <input type="radio" name="gender" id="dot-1">
+                                    <span class="gender">Male</span>
+                                </label>
+                                <label for="dot-2">
+                                    <input type="radio" name="gender" id="dot-2">
+                                    <span class="gender">Female</span>
+                                </label>
+                            </div>
+                    </div>
+                    <div class="button">
+                        <input type="submit" value="Register">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
